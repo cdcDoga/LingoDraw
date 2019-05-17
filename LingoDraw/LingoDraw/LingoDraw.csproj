@@ -1,0 +1,137 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="hiragana\h10.PNG" />
+    <None Remove="hiragana\h11.PNG" />
+    <None Remove="hiragana\h12.PNG" />
+    <None Remove="hiragana\h13.PNG" />
+    <None Remove="hiragana\h14.PNG" />
+    <None Remove="hiragana\h15.PNG" />
+    <None Remove="hiragana\h16.PNG" />
+    <None Remove="hiragana\h17.PNG" />
+    <None Remove="hiragana\h18.PNG" />
+    <None Remove="hiragana\h19.PNG" />
+    <None Remove="hiragana\h20.PNG" />
+    <None Remove="hiragana\h21.PNG" />
+    <None Remove="hiragana\h22.PNG" />
+    <None Remove="hiragana\h23.PNG" />
+    <None Remove="hiragana\h24.PNG" />
+    <None Remove="hiragana\h25.PNG" />
+    <None Remove="hiragana\h26.PNG" />
+    <None Remove="hiragana\h27.PNG" />
+    <None Remove="hiragana\h28.PNG" />
+    <None Remove="hiragana\h29.PNG" />
+    <None Remove="hiragana\h3.PNG" />
+    <None Remove="hiragana\h30.PNG" />
+    <None Remove="hiragana\h31.PNG" />
+    <None Remove="hiragana\h32.PNG" />
+    <None Remove="hiragana\h33.PNG" />
+    <None Remove="hiragana\h34.PNG" />
+    <None Remove="hiragana\h35.PNG" />
+    <None Remove="hiragana\h36.PNG" />
+    <None Remove="hiragana\h37.PNG" />
+    <None Remove="hiragana\h38.PNG" />
+    <None Remove="hiragana\h39.PNG" />
+    <None Remove="hiragana\h4.PNG" />
+    <None Remove="hiragana\h40.PNG" />
+    <None Remove="hiragana\h41.PNG" />
+    <None Remove="hiragana\h42.PNG" />
+    <None Remove="hiragana\h43.PNG" />
+    <None Remove="hiragana\h44.PNG" />
+    <None Remove="hiragana\h45.PNG" />
+    <None Remove="hiragana\h46.PNG" />
+    <None Remove="hiragana\h47.PNG" />
+    <None Remove="hiragana\h48.PNG" />
+    <None Remove="hiragana\h5.PNG" />
+    <None Remove="hiragana\h6.PNG" />
+    <None Remove="hiragana\h7.PNG" />
+    <None Remove="hiragana\h8.PNG" />
+    <None Remove="hiragana\h9.PNG" />
+    <None Remove="hiragana\s1.PNG" />
+    <None Remove="hiragana\s2.PNG" />
+    <None Remove="hiragana\s3.PNG" />
+    <None Remove="hiragana\s4.PNG" />
+    <None Remove="hiragana\s5.PNG" />
+    <None Remove="hiragana\s6.PNG" />
+    <None Remove="language_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="hiragana\h10.PNG" />
+    <EmbeddedResource Include="hiragana\h11.PNG" />
+    <EmbeddedResource Include="hiragana\h12.PNG" />
+    <EmbeddedResource Include="hiragana\h13.PNG" />
+    <EmbeddedResource Include="hiragana\h14.PNG" />
+    <EmbeddedResource Include="hiragana\h15.PNG" />
+    <EmbeddedResource Include="hiragana\h16.PNG" />
+    <EmbeddedResource Include="hiragana\h17.PNG" />
+    <EmbeddedResource Include="hiragana\h18.PNG" />
+    <EmbeddedResource Include="hiragana\h19.PNG" />
+    <EmbeddedResource Include="hiragana\h20.PNG" />
+    <EmbeddedResource Include="hiragana\h21.PNG" />
+    <EmbeddedResource Include="hiragana\h22.PNG" />
+    <EmbeddedResource Include="hiragana\h23.PNG" />
+    <EmbeddedResource Include="hiragana\h24.PNG" />
+    <EmbeddedResource Include="hiragana\h25.PNG" />
+    <EmbeddedResource Include="hiragana\h26.PNG" />
+    <EmbeddedResource Include="hiragana\h27.PNG" />
+    <EmbeddedResource Include="hiragana\h28.PNG" />
+    <EmbeddedResource Include="hiragana\h29.PNG" />
+    <EmbeddedResource Include="hiragana\h3.PNG" />
+    <EmbeddedResource Include="hiragana\h30.PNG" />
+    <EmbeddedResource Include="hiragana\h31.PNG" />
+    <EmbeddedResource Include="hiragana\h32.PNG" />
+    <EmbeddedResource Include="hiragana\h33.PNG" />
+    <EmbeddedResource Include="hiragana\h34.PNG" />
+    <EmbeddedResource Include="hiragana\h35.PNG" />
+    <EmbeddedResource Include="hiragana\h36.PNG" />
+    <EmbeddedResource Include="hiragana\h37.PNG" />
+    <EmbeddedResource Include="hiragana\h38.PNG" />
+    <EmbeddedResource Include="hiragana\h39.PNG" />
+    <EmbeddedResource Include="hiragana\h4.PNG" />
+    <EmbeddedResource Include="hiragana\h40.PNG" />
+    <EmbeddedResource Include="hiragana\h41.PNG" />
+    <EmbeddedResource Include="hiragana\h42.PNG" />
+    <EmbeddedResource Include="hiragana\h43.PNG" />
+    <EmbeddedResource Include="hiragana\h44.PNG" />
+    <EmbeddedResource Include="hiragana\h45.PNG" />
+    <EmbeddedResource Include="hiragana\h46.PNG" />
+    <EmbeddedResource Include="hiragana\h47.PNG" />
+    <EmbeddedResource Include="hiragana\h48.PNG" />
+    <EmbeddedResource Include="hiragana\h5.PNG" />
+    <EmbeddedResource Include="hiragana\h6.PNG" />
+    <EmbeddedResource Include="hiragana\h7.PNG" />
+    <EmbeddedResource Include="hiragana\h8.PNG" />
+    <EmbeddedResource Include="hiragana\h9.PNG" />
+    <EmbeddedResource Include="hiragana\s1.PNG" />
+    <EmbeddedResource Include="hiragana\s2.PNG" />
+    <EmbeddedResource Include="hiragana\s3.PNG" />
+    <EmbeddedResource Include="hiragana\s4.PNG" />
+    <EmbeddedResource Include="hiragana\s5.PNG" />
+    <EmbeddedResource Include="hiragana\s6.PNG" />
+    <EmbeddedResource Include="language_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Controls.SignaturePad.Forms" Version="3.0.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="LearnPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PracticePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

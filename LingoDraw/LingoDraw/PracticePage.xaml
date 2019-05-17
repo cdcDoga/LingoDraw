@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:SignaturePad.Forms;assembly=SignaturePad.Forms"
+             x:Class="LingoDraw.PracticePage">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 20, 0, 0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="btnHome" TargetType="Button">
+                <Setter Property="BackgroundColor"      Value="Transparent" />
+                <Setter Property="HorizontalOptions"    Value="StartAndExpand" />
+                <Setter Property="BorderColor"          Value="Transparent" />
+                <Setter Property="TextColor"            Value="#2196F3" />
+            </Style>
+
+            <Style x:Key="btnNext" TargetType="Button">
+                <Setter Property="BackgroundColor"      Value="Transparent" />
+                <Setter Property="HorizontalOptions"    Value="EndAndExpand" />
+                <Setter Property="BorderColor"          Value="Transparent" />
+                <Setter Property="TextColor"            Value="#d11f1f" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="Center" Margin="20" Spacing="10">
+
+            <Button Text="HOME" x:Name="btnHome" Margin="-20" Style="{StaticResource btnHome}" />
+
+            <forms:SignaturePadView BackgroundImageOpacity="0.8" StrokeColor="#d11f1f" HeightRequest="350"
+                                    StrokeWidth="5" HorizontalOptions="Fill" x:Name="imgEditor"
+                                    PromptText="" CaptionText="Try your best :)" />
+
+            <Button Text="NEXT" x:Name="btnNext" Style="{StaticResource btnNext}" />
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

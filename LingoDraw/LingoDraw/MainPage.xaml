@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LingoDraw"
+             x:Class="LingoDraw.MainPage">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 20, 0, 0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor"      Value="Transparent" />
+                <Setter Property="HorizontalOptions"    Value="Fill" />
+                <Setter Property="BorderColor"          Value="#2196F3" />
+                <Setter Property="BorderRadius"         Value="20" />
+                <Setter Property="BorderWidth"          Value="3" />
+                <Setter Property="TextColor"            Value="#2196F3" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Fill" HorizontalOptions="Center" Margin="30" Spacing="30">
+
+            <Image HorizontalOptions="Center" x:Name="imgLogo" />
+
+            <Label Text="Welcome to LingoDraw!" HorizontalOptions="Center" />
+
+            <Button Text="LEARN" x:Name="btnLearn" />
+
+            <Button Text="PRACTICE" x:Name="btnPractice" />
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

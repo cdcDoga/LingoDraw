@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LingoDraw.LearnPage">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 20, 0, 0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor"      Value="Transparent" />
+                <Setter Property="HorizontalOptions"    Value="StartAndExpand" />
+                <Setter Property="BorderColor"          Value="Transparent" />
+                <Setter Property="TextColor"            Value="#2196F3" />
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        
+        <ScrollView>
+
+            <StackLayout HorizontalOptions="Center" Margin="20" Spacing="10">
+
+                <Button Text="HOME" x:Name="btnHome" Margin="-20" />
+
+                <Label Text="SeiOn (Basic Characters)" Style="{StaticResource Header}" />
+                <Image HorizontalOptions="Center" x:Name="imgSeiOn" />
+
+                <Label Text="DakuOn (Voiced Consonant)" Style="{StaticResource Header}" />
+                <Image HorizontalOptions="Center" x:Name="imgDakuOn1" />
+                <Image HorizontalOptions="Center" x:Name="imgDakuOn2" />
+
+                <Label Text="YoOn (Contracted Sound) " Style="{StaticResource Header}" />
+                <Image HorizontalOptions="Center" x:Name="imgYoOn1" />
+                <Image HorizontalOptions="Center" x:Name="imgYoOn2" />
+                <Image HorizontalOptions="Center" x:Name="imgYoOn3" />
+
+                <!-- just for space -->
+                <Label Text="" />
+
+            </StackLayout>
+
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
